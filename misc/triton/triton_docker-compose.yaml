@@ -1,0 +1,22 @@
+services:
+  triton:
+    image: infobip/tritonserver:1.0
+    container_name: tritonserver
+    runtime: nvidia
+    shm_size: 1gb
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+    volumes:
+      - /raid/models/triton_model_repo:/models
+      - /raid/models/hf:/models/hf
+    command:
+      - tritonserver
+      - --model-repository=/models
+      - --exit-on-error=false
+      - --exit-timeout-secs=0
+      - --model-control-mode=poll
+      - --repository-poll-secs=30

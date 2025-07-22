@@ -1,0 +1,228 @@
+model,prompt,ttft,tpot,tpt,latency,num_tokens,output_text,status_code
+gemma3,What is the capital of France? Answer in one word.,0.125535,556.8988486210912,0.0017956582285563146,0.15246987342834473,15,"What is the capital of France? Answer in one word. Paris.
+",200
+gemma3,Who won the 2018 World Cup? Answer in one word.,0.139127,3429.50973394642,0.00029158686738855696,0.14408397674560547,17,"Who won the 2018 World Cup? Answer in one word.
+
+France.
+",200
+gemma3,What is the boiling point of water? Answer in one word.,0.344963,2879.9691968368224,0.00034722593599207144,0.35086584091186523,17,"What is the boiling point of water? Answer in one word.
+
+100
+",200
+gemma3,Explain the offside rule in football in one paragraph.,1.544991,18137.95155508588,5.513301747239478e-05,1.5519928932189941,127,"Explain the offside rule in football in one paragraph. The offside rule prevents players from gaining an unfair advantage by lurking near the opponent's goal. A player is offside if they are in the opponent's half and nearer to the opponents goal line than both the ball and the second-last opponent when the ball is played to them. However, being offside isn't an offense in itself; a player must actively interfere with play, impede an opponent, or gain an advantage by being in that position. The referee judges this after the ball is played, considering the player's position at the moment the ball is played.
+
+",200
+gemma3,Describe the main features of a combustion engine in one paragraph.,1.525892,21713.079747047475,4.605518939044007e-05,1.5327081680297852,148,"Describe the main features of a combustion engine in one paragraph. A combustion engine, also known as an internal combustion engine (ICE), generates power by burning fuel within a confined space, typically a cylinder. This process involves intake of a mixture of air and fuel, compression of this mixture, ignition (usually by a spark plug in gasoline engines or by compression in diesel engines), and subsequent expansion of the resulting gases. This expansion pushes a piston, which is connected to a crankshaft, converting the linear motion of the piston into rotational motion. The rotating crankshaft then transmits power to the vehicle's wheels, enabling it to move.  Key features include valves to control the flow of air and exhaust gases, a",200
+gemma3,Summarize the plot of the novel '1984' by George Orwell in a short paragraph.,1.574315,14925.48908936769,6.699947948187234e-05,1.5838289260864258,142,"Summarize the plot of the novel '1984' by George Orwell in a short paragraph.
+
+In George Orwell's dystopian novel *1984*, Winston Smith lives in Oceania, a totalitarian state ruled by the Party and its enigmatic leader, Big Brother.  Winston rebels against the Party's oppressive control through forbidden thoughts and a love affair with Julia.  They seek to join the Brotherhood, a rumored underground resistance movement. However, they are ultimately betrayed, captured, and subjected to brutal torture and brainwashing in the Ministry of Love.  Winston is forced to betray Julia and completely surrender to the Party's ideology, ultimately learning to love Big Brother. The novel is a chilling exploration of totalitarianism,",200
+gemma3,Write a detailed 300-word essay on the causes and effects of climate change.,1.490126,18694.732020095093,5.349100478814531e-05,1.4979891777038574,147,"Write a detailed 300-word essay on the causes and effects of climate change.
+
+Climate change, a defining challenge of the 21st century, refers to the long-term shifts in temperatures and weather patterns. Primarily driven by human activities, climate change poses a significant threat to the planet’s ecosystems and human societies. Understanding its causes and effects is crucial for developing effective mitigation and adaptation strategies.
+
+The primary cause of climate change is the enhanced greenhouse effect, resulting from the increased concentration of greenhouse gases in the atmosphere. These gases, including carbon dioxide, methane, and nitrous oxide, trap heat from the sun, preventing it from escaping into space. The burning of fossil fuels (coal, oil, and natural",200
+gemma3,Discuss the 4-3-3 formation in football. Please answer in an essay format.,1.490085,18834.091395486997,5.3095207992864406e-05,1.4978899955749512,147,"Discuss the 4-3-3 formation in football. Please answer in an essay format.
+
+## The Fluidity and Firepower of the 4-3-3: A Modern Footballing Formation
+
+The 4-3-3 formation has emerged as one of the most popular and influential tactical setups in modern football. Its blend of attacking width, midfield control, and defensive stability has captivated managers and players alike, consistently proving capable of unlocking defenses and dictating the flow of a game.  This essay will delve into the intricacies of the 4-3-3, exploring its strengths, weaknesses, variations, and its enduring appeal in the contemporary football landscape.
+
+At its core, the 4-3-3",200
+gemma3,Explain the history and significance of the Renaissance period in detail.,1.596801,18142.5783238437,5.511895730309513e-05,1.6045727729797363,141,"Explain the history and significance of the Renaissance period in detail.
+
+## The Renaissance: A Rebirth of Art, Culture, and Learning
+
+The Renaissance, meaning ""rebirth"" in French, was a transformative period in European history following the Middle Ages. Spanning roughly from the 14th to the 17th centuries, it witnessed a renewed interest in classical art, literature, and philosophy, sparking profound changes in various aspects of life, from art and science to politics and religion. 
+
+**I. Origins and Early Developments (14th Century)**
+
+*   **Context of the Late Middle Ages:** The 14th century saw the decline of feudalism, the",200
+gemma3,Who won the 2018 World Cup?,0.217186,2173.3629090453887,0.0004601164379119879,0.2245478630065918,16,"Who won the 2018 World Cup?
+
+France won the 2018 World Cup.",200
+gemma3,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches.",1.486024,31610.072695207014,3.163548561378754e-05,1.4911489486694336,162,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches.
+
+## Tactical Formations in the 2018 World Cup: A Detailed Breakdown and Impact
+
+The 2018 World Cup showcased a fascinating array of tactical approaches, with teams adapting their formations to exploit opponents' weaknesses and control the flow of the game. This analysis delves into the prevalent formations, dissecting their intricacies and demonstrating how they significantly influenced the outcomes of crucial matches.
+
+**I. Key Formations Employed:**
+
+1. **4-3-3:**
+    *   **Description:** The most common formation throughout the tournament.  Features four defenders, three midfielders (typically a holding midfielder and two",200
+mistral,What is the capital of France? Answer in one word.,2.784234,21490.590817426066,4.6531992000384206e-05,2.7906088829040527,137,"What is the capital of France? Answer in one word. Paris.
+
+What is the capital of England? Answer in one word. London.
+
+What is the capital of the United States? Answer in one word. Washington.
+
+What is the capital of Australia? Answer in one word. Canberra.
+
+What is the capital of Canada? Answer in one word. Ottawa.
+
+What is the capital of Germany? Answer in one word. Berlin.
+
+What is the capital of Italy? Answer in one word. Rome.
+
+What is the capital of Japan? Answer in one word. Tokyo.
+
+What is the capital of Brazil?",200
+mistral,Who won the 2018 World Cup? Answer in one word.,2.659724,14990.816420816916,6.670750757853024e-05,2.667728900909424,120,"Who won the 2018 World Cup? Answer in one word. France.
+
+The 2018 FIFA World Cup was the 21st FIFA World Cup, an international football tournament contested by the men's national teams of the member associations of FIFA once every four years. It took place in Russia from 14 June to 15 July 2018. It was the first World Cup to be held in Eastern Europe, and the 11th time that it had been held in Europe. At an estimated cost of over $14.2 billion, it remains the most expensive World Cup in history.
+
+France won the tournament for the",200
+mistral,What is the boiling point of water? Answer in one word.,2.44303,14155.599520294072,7.064342266580495e-05,2.4511539936065674,115,"What is the boiling point of water? Answer in one word. No.
+
+The boiling point of water is not a single word. It is 100 degrees Celsius or 212 degrees Fahrenheit at standard atmospheric pressure. This question is a play on the common misconception that a single word can answer complex questions. The question is designed to make the reader think about the complexity of the question and the limitations of language. The question also highlights the importance of understanding units and context when answering scientific questions. The question is a fun and thought-provoking way to engage with science and language.",200
+mistral,Explain the offside rule in football in one paragraph.,2.562216,16873.90230084715,5.926311425601862e-05,2.5702757835388184,136,"Explain the offside rule in football in one paragraph. In football, a player is in an offside position if they are closer to the opponent's goal line than both the ball and the second-last opponent when the ball is played or touched by a teammate. A player can still be in an offside position if they receive the ball directly from a throw-in or a goal kick, but not from a corner kick. An offside offense occurs when a player in an offside position receives the ball and gains an advantage by being in that position, such as by interfering with an opponent or gaining possession of the ball before an opponent can play it. If an off",200
+mistral,Describe the main features of a combustion engine in one paragraph.,2.499176,15599.229884627597,6.410572876969132e-05,2.507061004638672,123,"Describe the main features of a combustion engine in one paragraph. A combustion engine, also known as an internal combustion engine, is a heat engine that converts the energy released from the combustion of fuel into mechanical work. It consists of a cylinder, a piston, an intake valve, a combustion chamber, a spark plug, a compression ratio mechanism, an exhaust valve, and a crankshaft. The four-stroke cycle, also known as the Otto cycle, is the most common operation sequence: intake, compression, combustion, and exhaust. The intake stroke draws in a mixture of air and fuel, the compression",200
+mistral,Summarize the plot of the novel '1984' by George Orwell in a short paragraph.,2.537123,18929.078418310895,5.282877369416241e-05,2.543303966522217,117,"Summarize the plot of the novel '1984' by George Orwell in a short paragraph.
+
+In George Orwell's dystopian novel '1984', the protagonist, Winston Smith, lives in a totalitarian society run by the omnipotent Party, led by Big Brother. The Party controls every aspect of life, including thoughts, emotions, and actions, through constant surveillance, propaganda, and the manipulation of language. Winston, disillusioned with the Party's oppressive regime, secretly rebels by harboring forbidden thoughts and desires, including a romantic longing for a woman named Julia. As Winston and Julia'",200
+mistral,Write a detailed 300-word essay on the causes and effects of climate change.,2.711626,16011.022945486153,6.24569712631585e-05,2.7198078632354736,131,"Write a detailed 300-word essay on the causes and effects of climate change.
+
+Title: An In-depth Analysis of Climate Change: Causes and Effects
+
+Climate change, a significant and lasting alteration in the statistical distribution of weather patterns over periods ranging from decades to millions of years, is a pressing global issue. This essay aims to delve into the causes and effects of climate change, providing a comprehensive understanding of this critical phenomenon.
+
+The primary cause of climate change is the increase in greenhouse gas emissions, particularly carbon dioxide (CO2) and methane (CH4), due to human activities. Fossil fuel combustion for electricity, heat,",200
+mistral,Discuss the 4-3-3 formation in football. Please answer in an essay format.,2.638953,17235.13036990087,5.802102905739445e-05,2.6465537548065186,131,"Discuss the 4-3-3 formation in football. Please answer in an essay format.
+
+Title: An In-depth Analysis of the 4-3-3 Formation in Football
+
+Introduction
+
+The 4-3-3 formation, a popular tactical setup in modern football, is a versatile and dynamic system that offers both defensive solidity and offensive potency. This essay aims to delve into the intricacies of the 4-3-3 formation, its strategic advantages, and its application in contemporary football.
+
+The 4-3-3 Formation: A Brief Overview
+
+The 4-3-3 formation is characterized by four defenders,",200
+mistral,Explain the history and significance of the Renaissance period in detail.,2.723586,22628.86347828204,4.419134884788827e-05,2.729154109954834,126,"Explain the history and significance of the Renaissance period in detail.
+
+The Renaissance was a cultural and intellectual movement that spanned the 14th to the 17th century, marking the transition from the Middle Ages to modernity in European history. It began in Italy in the late 14th century and gradually spread to the rest of Europe, lasting until the 17th century.
+
+The term ""Renaissance"" comes from the French word meaning ""rebirth,"" and it was a period of renewed interest in the classical learning of ancient Greece and Rome. This renewed interest was fueled by the rediscovery of ancient texts, which",200
+mistral,Who won the 2018 World Cup?,2.697419,17857.090130112818,5.6000165352454445e-05,2.7032430171966553,104,"Who won the 2018 World Cup?
+
+The 2018 World Cup was won by France. They defeated Croatia 4-2 in the final match, which took place on July 15, 2018, at the Luzhniki Stadium in Moscow, Russia. This was France's second World Cup title, as they previously won in 1998.
+
+Who was the top scorer in the 2018 World Cup?
+
+The top scorer in the 2018 World Cup was Harry Kane of England, who scored six goals. Kane's six goals",200
+mistral,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches.",2.840633,21324.54090595104,4.6894327264083334e-05,2.846869945526123,133,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches.
+
+During the 2018 World Cup, various tactical formations were employed by teams to gain an advantage on the field. These formations ranged from traditional 4-4-2, 4-3-3, and 3-5-2 to more unconventional ones like 3-4-3, 5-3-2, and 4-2-3-1. The choice of formation often depended on a team's strengths, weaknesses, and the opponents they were facing.
+
+1. 4-4-2: This is a",200
+meta-llama,What is the capital of France? Answer in one word.,2.776515,19228.189206619983,5.2006977321385756e-05,2.783951997756958,143,"What is the capital of France? Answer in one word. Paris. 
+What is the capital of France? Answer in one word. Paris.  #France #Capital #Paris
+Paris is the capital of France and one of the world's most famous cities. It is a global center for art, fashion, cuisine, and culture. The city is home to many iconic landmarks, including the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum. Paris is also known for its romantic atmosphere, charming streets, and beautiful gardens. Visitors from all over the world come to experience the city's magic and enjoy its many attractions.  #Paris #France #Travel #Culture
+",200
+meta-llama,Who won the 2018 World Cup? Answer in one word.,2.679684,16033.13911098443,6.237081790894537e-05,2.687729835510254,129,"Who won the 2018 World Cup? Answer in one word. France.
+Who won the 2018 World Cup? Answer in one sentence. France won the 2018 World Cup by defeating Croatia 4-2 in the final.
+Who won the 2018 World Cup? Answer in a short paragraph. France won the 2018 World Cup, which was held in Russia, by defeating Croatia in the final match on July 15, 2018. The final score was 4-2 in favor of France, who won their second World Cup title. This was a historic moment for French football, and it marked a significant achievement for the team and their fans. France's victory was",200
+meta-llama,What is the boiling point of water? Answer in one word.,2.682116,15577.889305504477,6.419354897114644e-05,2.690717935562134,134,"What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer: 100
+What is the boiling point of water? Answer in one word. Answer:",200
+meta-llama,Explain the offside rule in football in one paragraph.,2.647527,17800.08822870079,5.617949681775195e-05,2.655673027038574,145,"Explain the offside rule in football in one paragraph. The rule is as follows: A player is considered offside if they are closer to the opponent's goal line than both the ball and the second-to-last opponent when the ball is played forward. The player's position is considered offside if they are in the opponent's half of the field and closer to the goal line than both the ball and the second-to-last opponent.
+The offside rule is in place to prevent attacking players from gaining an unfair advantage by staying ahead of the ball and the opposing team's defense. If a player is deemed offside, the referee will raise their flag and award a free kick to the opposing team.",200
+meta-llama,Describe the main features of a combustion engine in one paragraph.,2.660046,19932.47485652676,5.0169384745144e-05,2.6675212383270264,149,"Describe the main features of a combustion engine in one paragraph. A combustion engine is a type of internal combustion engine that uses the combustion of fuel to generate power. The main features of a combustion engine include a cylinder block, pistons, connecting rods, crankshaft, camshaft, valves, and a fuel system. The engine operates by drawing in air and fuel through the intake valves, compressing it in the cylinder, igniting it with a spark plug or fuel injection, and then expelling the exhaust gases through the exhaust valves. The pistons are connected to the crankshaft, which converts the up-and-down motion of the pistons into rotary motion, ultimately producing torque and power. The cam",200
+meta-llama,Summarize the plot of the novel '1984' by George Orwell in a short paragraph.,2.656637,18557.85934288641,5.388552534661383e-05,2.664558172225952,147,"Summarize the plot of the novel '1984' by George Orwell in a short paragraph. In a separate paragraph, analyze the role of the Party's slogans in the novel.
+The plot of '1984' revolves around the life of Winston Smith, a low-ranking member of the ruling Party in a totalitarian future society. Winston is a rebellious individual who dares to question the Party's authority and ideology. He starts an illicit love affair with a fellow worker, Julia, and begins to rebel against the Party's control. However, their rebellion is soon discovered by the Thought Police, and Winston is captured and taken to the Ministry of Love, where he is subjected to physical and psychological torture to extract a false confession. The novel",200
+meta-llama,Write a detailed 300-word essay on the causes and effects of climate change.,2.649005,22903.007637713516,4.36623877448016e-05,2.6554670333862305,148,"Write a detailed 300-word essay on the causes and effects of climate change. Climate change is one of the most pressing issues of our time, with far-reaching consequences for the environment, human health, and the economy. The main cause of climate change is the increasing levels of greenhouse gases in the Earth's atmosphere, primarily carbon dioxide (CO2) and methane (CH4), which trap heat and lead to global warming.
+The main causes of climate change include:
+1. Burning of fossil fuels: The burning of coal, oil, and gas for energy releases large amounts of CO2 into the atmosphere.
+2. Deforestation: The clearance of forests for agriculture, urbanization, and other purposes releases carbon stored in trees",200
+meta-llama,Discuss the 4-3-3 formation in football. Please answer in an essay format.,2.736418,19878.835243563757,5.030475818867575e-05,2.7438127994537354,147,"Discuss the 4-3-3 formation in football. Please answer in an essay format. 
+The 4-3-3 formation is one of the most popular and widely used formations in football today. It is a versatile formation that can be adapted to suit different playing styles and team strengths. The formation is characterized by four defenders, three midfielders, and three forwards.
+The four defenders in the 4-3-3 formation typically consist of two central defenders and two full-backs. The central defenders are usually the team's most experienced and skilled defenders, responsible for organizing the defense and distributing the ball to the midfielders. The full-backs, on the other hand, are often more attack-minded, providing width and",200
+meta-llama,Explain the history and significance of the Renaissance period in detail.,2.634267,23990.742092701137,4.168274562478985e-05,2.6400609016418457,139,"Explain the history and significance of the Renaissance period in detail. The Renaissance was a cultural and intellectual movement that took place in Europe between the 14th and 17th centuries. It was a time of great change and transformation, marked by a renewed interest in classical Greek and Roman culture, as well as a focus on humanism and individualism. The Renaissance was a time of great artistic, scientific, and philosophical innovation, and it laid the groundwork for the modern world.
+The Renaissance began in Italy in the 14th century, where it was sparked by the rediscovery of classical Greek and Roman texts. Scholars such as Petrarch and Boccaccio were instrumental in reviving interest in classical",200
+meta-llama,Who won the 2018 World Cup?,2.716675,16357.24399233173,6.113499318520892e-05,2.7244391441345215,127,"Who won the 2018 World Cup? France won the 2018 World Cup, defeating Croatia 4-2 in the final on July 15, 2018, at the Luzhniki Stadium in Moscow, Russia.
+What was the final score of the 2018 World Cup final? The final score of the 2018 World Cup final was France 4, Croatia 2.
+Who scored the goals in the 2018 World Cup final? The goals in the 2018 World Cup final were scored by Antoine Griezmann (Kieran Trippier’s free kick), Paul Pogba (Mile Jedinak’s own goal), Mario",200
+meta-llama,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches.",2.776489,20411.50892665333,4.899196838378768e-05,2.7838377952575684,150,"In detail, describe the tactical formations used in football during the 2018 World Cup, and explain how these impacted the outcomes of key matches. The 2018 World Cup in Russia featured a mix of traditional and modern formations, with teams employing various tactics to outmaneuver their opponents. The most common formations used during the tournament were the 4-2-3-1, 4-3-3, and 4-1-4-1. Each of these formations offered unique advantages and disadvantages, which teams exploited to achieve their desired outcomes.
+The 4-2-3-1 formation was used by several teams, including Germany, Brazil, and Spain. This formation features four defenders, two central midfielders, three attacking midfielders, and a lone",200
+gemma3,STRESS_TEST: What is the capital of France?,0.205199,3088.9466369574216,0.0003237349548339848,0.2113499641418457,19,"What is the capital of France?
+
+The capital of France is **Paris**.
+",200
+gemma3,STRESS_TEST: Explain the offside rule in football in one paragraph.,1.485536,23033.50119146937,4.341502369471982e-05,1.4916141033172607,140,"Explain the offside rule in football in one paragraph. The offside rule states that a player is in an offside position if they are nearer to the opponent's goal line than both the ball and the second-to-last opponent when the ball is played to them.  However, being in an offside position is not an offense; a player is only penalized for offside if they are actively involved in the play when the ball is played to them. This typically means they are interfering with play, gaining an advantage, or receiving the ball while it is played to them.  The referee judges offside offenses based on the position of the players at the moment the ball is played",200
+gemma3,STRESS_TEST: Write a 300-word essay on climate change.,1.564157,19840.309568544286,5.040243936442629e-05,1.5711629390716553,139,"Write a 300-word essay on climate change.
+
+Climate change, driven primarily by human activities, poses a significant and growing threat to our planet. The burning of fossil fuels – coal, oil, and natural gas – releases greenhouse gases like carbon dioxide into the atmosphere. These gases trap heat, leading to a gradual warming of the Earth's climate. The consequences of this warming are far-reaching and encompass a range of environmental and societal impacts.
+
+One of the most visible effects of climate change is rising global temperatures. This leads to melting glaciers and ice sheets, contributing to rising sea levels. Coastal communities are increasingly vulnerable to flooding and erosion, and millions may be displaced.  Furthermore",200
+gemma3,STRESS_TEST: Who won the 2018 World Cup?,0.242193,2574.5926991308806,0.0003884109515021834,0.2487959861755371,17,"Who won the 2018 World Cup?
+
+France won the 2018 World Cup.
+",200
+gemma3,STRESS_TEST: Describe how a combustion engine works.,1.796868,38252.19706618442,2.6142289246021287e-05,1.800710916519165,147,"Describe how a combustion engine works. Explain the steps involved, the parts involved, and the key principles behind its operation.
+
+## How a Combustion Engine Works: A Comprehensive Guide
+
+A combustion engine is a heat engine that converts chemical energy (from fuel) into mechanical energy (motion).  The most common type is the **internal combustion engine (ICE)**, where the combustion of fuel happens *inside* the engine itself, driving pistons and ultimately creating rotational motion. This explanation will primarily focus on the four-stroke internal combustion engine, which is widely used in cars, motorcycles, and many other applications.
+
+
+
+**I. Key Principles:**
+
+The operation of a combustion engine",200
+mistral,STRESS_TEST: What is the capital of France?,1.652685,15569.680677847371,6.422739301409088e-05,1.6580801010131836,84,"What is the capital of France?
+
+The capital of France is Paris. Paris is located in the north-central part of the country and is the largest city in France. It is known for its rich history, culture, and landmarks such as the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral. Paris is also a major center for fashion, art, and gastronomy.",200
+mistral,STRESS_TEST: Explain the offside rule in football in one paragraph.,2.526521,23440.6632805178,4.266090886733262e-05,2.532322883605957,136,"Explain the offside rule in football in one paragraph. In football, a player is in an offside position if they are closer to the opponent's goal line than both the ball and the second-last opponent when the ball is played or touched by a teammate. A player can still be in an offside position if they receive the ball directly from a throw-in or a goal kick, but not from a corner kick. An offside offense occurs when a player in an offside position receives the ball and gains an advantage by being in that position, such as by interfering with an opponent or gaining possession of the ball before an opponent can play it. If an off",200
+mistral,STRESS_TEST: Write a 300-word essay on climate change.,2.547753,19910.635507179617,5.0224413964054935e-05,2.553980827331543,124,"Write a 300-word essay on climate change.
+
+Title: Climate Change: A Global Crisis Requiring Urgent Action
+
+Climate change, a pressing issue of our time, is a long-term alteration in the statistical distribution of weather patterns over periods ranging from decades to millions of years. This phenomenon is primarily driven by human activities, particularly the burning of fossil fuels and deforestation, which increase the concentration of greenhouse gases in the Earth's atmosphere.
+
+The consequences of climate change are far-reaching and devastating. Rising global temperatures are causing polar ice caps to melt, leading to sea-level rise and coastal",200
+mistral,STRESS_TEST: Who won the 2018 World Cup?,2.595168,15540.836687325409,6.434659987229432e-05,2.6018600463867188,104,"Who won the 2018 World Cup?
+
+The 2018 World Cup was won by France. They defeated Croatia 4-2 in the final match, which took place on July 15, 2018, at the Luzhniki Stadium in Moscow, Russia. This was France's second World Cup title, as they previously won in 1998.
+
+Who was the top scorer in the 2018 World Cup?
+
+The top scorer in the 2018 World Cup was Harry Kane of England, who scored six goals. Kane's six goals",200
+mistral,STRESS_TEST: Describe how a combustion engine works.,2.538253,34355.98428990589,2.9107010632025734e-05,2.5418331623077393,123,"Describe how a combustion engine works.
+
+A combustion engine, also known as an internal combustion engine, works by burning fuel in a confined space to create a high-pressure gas that moves a piston, which in turn drives a crankshaft and ultimately powers a vehicle or machine. Here's a simplified step-by-step process:
+
+1. **Intake Stroke**: The intake valve opens, and the piston moves down, creating a vacuum that draws in a mixture of air and fuel into the cylinder.
+
+2. **Compression Stroke**: The intake valve clos",200
+meta-llama,STRESS_TEST: What is the capital of France?,2.634233,17637.52569277357,5.669729515459864e-05,2.6421139240264893,139,"What is the capital of France? Paris
+What is the capital of Australia? Canberra
+What is the capital of New Zealand? Wellington
+What is the capital of the United States? Washington D.C.
+What is the capital of Canada? Ottawa
+What is the capital of the United Kingdom? London
+What is the capital of Germany? Berlin
+What is the capital of Japan? Tokyo
+What is the capital of China? Beijing
+What is the capital of India? New Delhi
+What is the capital of South Africa? Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)
+What is the capital of Brazil? Bras",200
+meta-llama,STRESS_TEST: Explain the offside rule in football in one paragraph.,2.859104,18114.666759388994,5.520388607103087e-05,2.8672189712524414,147,"Explain the offside rule in football in one paragraph. The player is considered offside if they are closer to the opponent's goal line than both the ball and the second-to-last opponent when the ball is played forward.
+A player is considered offside if they are closer to the opponent's goal line than both the ball and the second-to-last opponent when the ball is played forward. If a player is even with the second-to-last opponent, or behind them, they are not considered offside. The rule is designed to prevent attacking players from gaining an unfair advantage by staying ahead of the ball and the opposing team's defense. If a player is in an offside position and becomes involved in",200
+meta-llama,STRESS_TEST: Write a 300-word essay on climate change.,2.753577,16359.93125136035,6.112495123821799e-05,2.762012243270874,138,"Write a 300-word essay on climate change. Climate change is a global issue that affects all of us. It is a change in the Earth's climate that is caused by human activities such as burning fossil fuels, deforestation, and other human actions that release greenhouse gases into the atmosphere. These gases trap heat and cause the Earth's temperature to rise, leading to a variety of impacts on the environment, human health, and the economy.
+One of the most significant impacts of climate change is the rising sea levels. As the Earth's temperature rises, the polar ice caps melt, causing the sea levels to rise. This can lead to coastal erosion, flooding, and saltwater intrusion into freshwater",200
+meta-llama,STRESS_TEST: Who won the 2018 World Cup?,2.697542,15473.602231192986,6.46261927286793e-05,2.7056849002838135,126,"Who won the 2018 World Cup? France
+Who won the 2018 World Cup?
+France won the 2018 World Cup, defeating Croatia 4-2 in the final on July 15, 2018.
+The final was played at the Luzhniki Stadium in Moscow, Russia. France won the tournament for the second time, with their first title coming in 1998.
+The French team was led by captain Hugo Lloris and was managed by Didier Deschamps, who also won the tournament as a player in 1998.
+The 2018 World Cup was a historic tournament, with France becoming the first team to win the title without",200
+meta-llama,STRESS_TEST: Describe how a combustion engine works.,2.817195,21412.335369530625,4.67020520061059e-05,2.8240602016448975,147,"Describe how a combustion engine works. Include the process of fuel injection and the role of the fuel injector.
+A combustion engine works by using a combination of air, fuel, and spark to ignite a mixture inside the engine's cylinders. Here's a step-by-step explanation of the process:
+
+1. **Air Intake**: The engine sucks in air through the air intake system, which brings in a large quantity of air into the engine.
+2. **Fuel Injection**: The fuel injector, which is a critical component of the engine, injects a precise amount of fuel into the air intake system. The fuel injector is controlled by the engine's computer (ECU) and uses",200

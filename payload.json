@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    {
+      "name": "input_ids",
+      "shape": [1,1],
+      "datatype": "INT64",
+      "data": [
+        "On which stadium plays NK Istra 1961? Tell me only the name of the stadium."
+      ]
+    }
+  ]
+}

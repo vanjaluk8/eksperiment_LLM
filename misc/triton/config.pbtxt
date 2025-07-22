@@ -1,0 +1,48 @@
+name: "mistral"
+backend: "python"
+max_batch_size: 8
+
+input [
+  {
+    name: "text_input"
+    data_type: TYPE_STRING
+    dims: [1]
+  }
+]
+output [
+  {
+    name: "text_output"
+    data_type: TYPE_STRING
+    dims: [1]
+  }
+]
+
+dynamic_batching {
+  preferred_batch_size: [2, 4, 8]
+  max_queue_delay_microseconds: 100
+}
+
+parameters: {
+  key: "enable_kv_cache"
+  value: { string_value: "true" }
+}
+parameters: {
+  key: "kv_cache_size"
+  value: { string_value: "4096" }
+}
+
+parameters: {
+  key: "kv_cache_dtype"
+  value: { string_value: "fp16" }
+}
+
+instance_group [
+  { count: 1 kind: KIND_GPU gpus: [0] },
+  { count: 1 kind: KIND_GPU gpus: [1] },
+  { count: 1 kind: KIND_GPU gpus: [2] },
+  { count: 1 kind: KIND_GPU gpus: [3] },
+  { count: 1 kind: KIND_GPU gpus: [4] },
+  { count: 1 kind: KIND_GPU gpus: [5] },
+  { count: 1 kind: KIND_GPU gpus: [6] },
+  { count: 1 kind: KIND_GPU gpus: [7] }
+]
