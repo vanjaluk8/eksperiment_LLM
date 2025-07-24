@@ -1,9 +1,9 @@
 {
   "inputs": [
     {
-      "name": "input_ids",
+      "name": "text_input",
       "shape": [1,1],
-      "datatype": "INT64",
+      "datatype": "BYTES",
       "data": [
         "On which stadium plays NK Istra 1961? Tell me only the name of the stadium."
       ]

@@ -72,3 +72,6 @@ output [
     dims: [ -1 ]
   }
 ]
+
+# gemma problemi kod pokretanja testova sa user strane
+E0724 06:29:07.070951 1 pb_stub.cc:736] "Failed to process the request(s) for model 'gemma3_0_0', message: FailOnRecompileLimitHit: recompile_limit reached with one_graph=True or error_on_graph_break=True. Excessive recompilations can degrade performance due to the compilation overhead of each recompilation. To monitor recompilations, enable TORCH_LOGS=recompiles. If recompilations are expected, consider increasing torch._dynamo.config.cache_size_limit to an appropriate value
