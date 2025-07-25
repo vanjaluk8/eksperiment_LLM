@@ -1,17 +1,20 @@
 import random
 import os
-from application.string_prompter import get_token_counter, run_chat_like_test, run_summarize_document_test
-from application.string_prompter import collect_metrics
-from application.string_prompter import run_batch_prompt_test
+from application.helpers import get_token_counter
+from application.load_tester import (send_batch_prompt_test, send_chat_like_test,
+                                     send_summarize_document_test, send_prompt_request)
 import pandas as pd
 from dotenv import load_dotenv
 from datasets import load_dataset
 
 load_dotenv()
 
-
 TRITON_URL = os.getenv("TRITON_URL")
 LLM = ["gemma3", "mistral", "meta-llama"]
+
+def get_model_infer_url(base_url, model_name):
+    return f"{base_url}/v2/models/{model_name}/infer"
+
 
 # Koristi Alpaca dataset sa HG
 alpaca = load_dataset('tatsu-lab/alpaca', split='train')
@@ -43,37 +46,38 @@ def main():
     batch_results = []
 
     for model_name in LLM:
+        model_url = get_model_infer_url(TRITON_URL, model_name)
         # Obican prompt test
-        print(f"\n=== Running stress test for model: {model_name} ===")
+        print(f"\n=== Test slanja {NUM_PROMPTS} promptova: {model_name} ===")
         count_tokens = get_token_counter(model_name)
         for idx, prompt in enumerate(stress_test_prompts):
-            metrics = collect_metrics(model_name, TRITON_URL, prompt, True, count_tokens)
+            metrics_df = send_prompt_request(model_name, model_url, prompt, count_tokens)
+            metrics = metrics_df.iloc[0].to_dict()
             single_results.append(metrics)
 
         # Kao Chat test
-        print(f"\n=== Running chat-like test for model: {model_name} ===")
+        print(f"\n=== Test slanja konverzacija u {N_TURNS} interacija : {model_name} ===")
         for prompt in chat_test_prompts:
-            chat_metrics = run_chat_like_test(model_name, TRITON_URL, prompt, count_tokens, n_turns=N_TURNS)
+            chat_metrics = send_chat_like_test(model_name, model_url, prompt, count_tokens, n_turns=N_TURNS)
             chat_results.extend(chat_metrics.to_dict(orient="records"))
 
         # Sumiranje dokumenta test
-        print(f"\n=== Running document summarization for model: {model_name} ===")
-        summarize_df = run_summarize_document_test(model_name, TRITON_URL, document, count_tokens)
+        print(f"\n=== Test sumiranja dokumenta: {model_name} ===")
+        summarize_df = send_summarize_document_test(model_name, model_url, document, count_tokens)
         summarize_results.extend(summarize_df.to_dict(orient="records"))
 
-        print(f"\n=== Running batch prompt test for model: {model_name} ===")
+        print(f"\n=== Test batch prompta veličine {BATCH_SIZE * NUM_BATCHES}: {model_name} ===")
         batch_test_prompts = random.sample(alpaca_prompts, TOTAL_PROMPTS)
         for i in range(0, TOTAL_PROMPTS, BATCH_SIZE):
             batch = batch_test_prompts[i:i + BATCH_SIZE]
-            batch_df = run_batch_prompt_test(model_name, f"{TRITON_URL}/v2/models/{model_name}/infer", batch, count_tokens)
+            batch_df = send_batch_prompt_test(model_name, model_url, batch, count_tokens)
             batch_results.extend(batch_df.to_dict(orient='records'))
 
-    #print("Metrics results:", chat_results)
-    pd.DataFrame(single_results).to_csv("metrike/prompts/llm_stress_test_results.csv", index=False)
-    pd.DataFrame(chat_results).to_csv("metrike/prompts/llm_chat_test_results.csv", index=False)
-    pd.DataFrame(summarize_results).to_csv("metrike/prompts/llm_summarize_test_results.csv", index=False)
-    pd.DataFrame(batch_results).to_csv("metrike/prompts/llm_batch_test_results.csv", index=False)
-    print("\nGotovo, rezultati su spremljeni u 'metrike/prompts' folder.")
+    pd.DataFrame(single_results).to_csv("metrike/prompts_single/1_prompt_test_results.csv", index=False)
+    pd.DataFrame(chat_results).to_csv("metrike/prompts_single/2_chat_test_results.csv", index=False)
+    pd.DataFrame(summarize_results).to_csv("metrike/prompts_single/3_summarize_test_results.csv", index=False)
+    pd.DataFrame(batch_results).to_csv("metrike/prompts_single/4_batch_test_results.csv", index=False)
+    print("\nGotovo, rezultati su spremljeni u 'metrike/prompts_single/' folder.")
 
 if __name__ == "__main__":
     main()
