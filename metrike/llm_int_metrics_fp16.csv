@@ -1,4 +1,0 @@
-model,prompt,output_text,num_tokens,ttft,tpot,tokens_per_sec
-rt-mistral,Discuss the 4-3-3 formation in football. Please answer in one sentence.,I择 loc UN素 ==LCless,8,0.2076,0.026,38.53
-rt-mistral,Explain the offside rule. Please answer in one sentece.,Iyp locreferreferきΣΣ,8,0.2125,0.0266,37.64
-rt-mistral,Who won the 2018 World Cup? Please answer in one word.,I ==Πraw Sydney必必 Fr,8,0.2028,0.0254,39.44

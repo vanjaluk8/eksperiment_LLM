@@ -12,7 +12,7 @@ CONCURRENCY_RANGES=("1:64:16")  # concurrency ranges u formatu "min:max:step"
 TRITON_HOST="localhost" # triton server host
 TRITON_PORT="8000"  # HTTP API port
 
-RESULTS_DIR=/workspace/files
+RESULTS_DIR=/workspace/filesæ
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 COMBINED_CSV="$RESULTS_DIR/combined_results_${TIMESTAMP}.csv"
 

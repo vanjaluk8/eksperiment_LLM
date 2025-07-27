@@ -73,10 +73,10 @@ def main():
             batch_df = send_batch_prompt_test(model_name, model_url, batch, count_tokens)
             batch_results.extend(batch_df.to_dict(orient='records'))
 
-    pd.DataFrame(single_results).to_csv("metrike/prompts_single/1_prompt_test_results.csv", index=False)
-    pd.DataFrame(chat_results).to_csv("metrike/prompts_single/2_chat_test_results.csv", index=False)
-    pd.DataFrame(summarize_results).to_csv("metrike/prompts_single/3_summarize_test_results.csv", index=False)
-    pd.DataFrame(batch_results).to_csv("metrike/prompts_single/4_batch_test_results.csv", index=False)
+    pd.DataFrame(single_results).to_csv("metrike/obrada_gotova/prompts_single/1_prompt_test_results.csv", index=False)
+    pd.DataFrame(chat_results).to_csv("metrike/obrada_gotova/prompts_single/2_chat_test_results.csv", index=False)
+    pd.DataFrame(summarize_results).to_csv("metrike/obrada_gotova/prompts_single/3_summarize_test_results.csv", index=False)
+    pd.DataFrame(batch_results).to_csv("metrike/obrada_gotova/prompts_single/4_batch_test_results.csv", index=False)
     print("\nGotovo, rezultati su spremljeni u 'metrike/prompts_single/' folder.")
 
 if __name__ == "__main__":
