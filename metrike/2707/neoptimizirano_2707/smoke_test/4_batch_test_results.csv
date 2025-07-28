@@ -1,0 +1,222 @@
+timestamp,test_name,prompt_index,model,prompt,ttft,tpot,tokens_per_sec,latency,prompt_tokens,output_tokens,output_text,status_code
+2025-07-27 12:48:37.094738,batch,0,gemma3,"List 5 different ways the article could be used in a lesson plan. In a recent survey, 90% of participants indicated that self-care is important for their overall health and well-being.",0.02504,0.03041529655456543,0.0,0.03041529655456543,42,0,,400
+2025-07-27 12:48:37.094858,batch,1,gemma3,Identify two contrasting elements.,0.02504,0.03041529655456543,0.0,0.03041529655456543,5,0,,400
+2025-07-27 12:48:37.094927,batch,2,gemma3,Name a species of reptile.,0.02504,0.03041529655456543,0.0,0.03041529655456543,6,0,,400
+2025-07-27 12:48:37.094999,batch,3,gemma3,Name two invasive species of plants in the United States.,0.02504,0.03041529655456543,0.0,0.03041529655456543,11,0,,400
+2025-07-27 12:48:37.095102,batch,4,gemma3,Create a list of five external resources that can provide additional information on the given topic The history of the American Civil War,0.02504,0.03041529655456543,0.0,0.03041529655456543,23,0,,400
+2025-07-27 12:48:37.095183,batch,5,gemma3,Suggest a plausible narrative for a short story about a woman discovering her inner-strength.,0.02504,0.03041529655456543,0.0,0.03041529655456543,17,0,,400
+2025-07-27 12:48:37.095284,batch,6,gemma3,"Prepare an email to send a reminder to a friend. Hi Bill,
+
+I was wondering if you could help me out with my project.",0.02504,0.03041529655456543,0.0,0.03041529655456543,28,0,,400
+2025-07-27 12:48:37.095354,batch,7,gemma3,"Translate the sentence ""Je veux aller au marché"" into English.",0.02504,0.03041529655456543,0.0,0.03041529655456543,13,0,,400
+2025-07-27 12:48:37.127102,batch,0,gemma3,What is Dependency Parsing?,0.024822,0.030460119247436523,0.0,0.030460119247436523,5,0,,400
+2025-07-27 12:48:37.127236,batch,1,gemma3,Create a newspaper article about a recent storm.,0.024822,0.030460119247436523,0.0,0.030460119247436523,9,0,,400
+2025-07-27 12:48:37.127341,batch,2,gemma3,Brainstorm three potential use cases in healthcare for natural language processing.,0.024822,0.030460119247436523,0.0,0.030460119247436523,13,0,,400
+2025-07-27 12:48:37.127596,batch,3,gemma3,"Provide a concise summary of the contents of the following passage: The Fire Nation was a nation of people and the birthplace of Avatar Roku. Located on an archipelago of volcanic islands, the immense and overpowering power of the Fire Nation was the largest and most powerful of the four nations. Fire Nation citizens were culturally and ethnically diverse, often having ancestors from two or more nations.",0.024822,0.030460119247436523,0.0,0.030460119247436523,74,0,,400
+2025-07-27 12:48:37.127668,batch,4,gemma3,Explain the physiological process of breathing.,0.024822,0.030460119247436523,0.0,0.030460119247436523,7,0,,400
+2025-07-27 12:48:37.127836,batch,5,gemma3,Arrange the following sentences (1 to 5) into a logical structure (1) The car was then shipped to America. (2) The car parts were made in Japan. (3) It was designed in Italy. (4) The car was assembled at a factory in Germany. (5) A new sports car was released.,0.024822,0.030460119247436523,0.0,0.030460119247436523,68,0,,400
+2025-07-27 12:48:37.127943,batch,6,gemma3,Create a multiple-choice question based on the following statement. The European Union is a political and economic union of 27 member states.,0.024822,0.030460119247436523,0.0,0.030460119247436523,28,0,,400
+2025-07-27 12:48:37.128018,batch,7,gemma3,Give five tips that would help someone to become a better listener,0.024822,0.030460119247436523,0.0,0.030460119247436523,12,0,,400
+2025-07-27 12:48:37.158890,batch,0,gemma3,Spell out the spelling of ophthalmologist.,0.023738,0.029589176177978516,0.0,0.029589176177978516,9,0,,400
+2025-07-27 12:48:37.159068,batch,1,gemma3,"Create a fictitious character based off of the following three qualities. talented, ambitious, and secretive",0.023738,0.029589176177978516,0.0,0.029589176177978516,18,0,,400
+2025-07-27 12:48:37.159207,batch,2,gemma3,Name the six types of simple machines.,0.023738,0.029589176177978516,0.0,0.029589176177978516,8,0,,400
+2025-07-27 12:48:37.159350,batch,3,gemma3,"Convert this given code snippet into pseudocode. for i in range(0,5):
+   print (i)",0.023738,0.029589176177978516,0.0,0.029589176177978516,24,0,,400
+2025-07-27 12:48:37.159494,batch,4,gemma3,Describe the most important factors for successful project management.,0.023738,0.029589176177978516,0.0,0.029589176177978516,10,0,,400
+2025-07-27 12:48:37.159593,batch,5,gemma3,What are the main steps involved in website optimization?,0.023738,0.029589176177978516,0.0,0.029589176177978516,10,0,,400
+2025-07-27 12:48:37.159671,batch,6,gemma3,What are the health effects of consuming too much sugar?,0.023738,0.029589176177978516,0.0,0.029589176177978516,11,0,,400
+2025-07-27 12:48:37.159756,batch,7,gemma3,"In one sentence, explain the purpose of Big Data.",0.023738,0.029589176177978516,0.0,0.029589176177978516,11,0,,400
+2025-07-27 12:48:37.190819,batch,0,gemma3,Name ten animals that live in a tropical rainforest.,0.024191,0.029721975326538086,0.0,0.029721975326538086,10,0,,400
+2025-07-27 12:48:37.190938,batch,1,gemma3,Identify an example of a fossil fuel.,0.024191,0.029721975326538086,0.0,0.029721975326538086,8,0,,400
+2025-07-27 12:48:37.191052,batch,2,gemma3,"Write two sentences that describe the painting called ""The Birth of Venus"" by Sandro Botticelli.",0.024191,0.029721975326538086,0.0,0.029721975326538086,19,0,,400
+2025-07-27 12:48:37.191126,batch,3,gemma3,Explain what is meant by a recursive function.,0.024191,0.029721975326538086,0.0,0.029721975326538086,9,0,,400
+2025-07-27 12:48:37.191237,batch,4,gemma3,Identify the statistical measures of central tendency in the following statement. The average student scored 65% in the exam.,0.024191,0.029721975326538086,0.0,0.029721975326538086,24,0,,400
+2025-07-27 12:48:37.191446,batch,5,gemma3,Convert the given text into a paragraph with complete sentences. The ability to think abstractly is critical for problem-solving. Understanding principles and applying them across contexts. Making connections between concepts and ideas. Thinking outside the box.,0.024191,0.029721975326538086,0.0,0.029721975326538086,44,0,,400
+2025-07-27 12:48:37.191514,batch,6,gemma3,Design the basic layout of an infographic.,0.024191,0.029721975326538086,0.0,0.029721975326538086,8,0,,400
+2025-07-27 12:48:37.191594,batch,7,gemma3,"Transform the following phrase into a contraction:
+
+They are",0.024191,0.029721975326538086,0.0,0.029721975326538086,11,0,,400
+2025-07-27 12:48:37.221815,batch,0,gemma3,"Explain what a pin code is, and list some of its advantages.",0.023577,0.028878211975097656,0.0,0.028878211975097656,14,0,,400
+2025-07-27 12:48:37.221960,batch,1,gemma3,"Classify the given person as either ""alive"" or ""dead"". Julius Caesar",0.023577,0.028878211975097656,0.0,0.028878211975097656,15,0,,400
+2025-07-27 12:48:37.222063,batch,2,gemma3,Identify a current event that directly affects the topic of climate change.,0.023577,0.028878211975097656,0.0,0.028878211975097656,13,0,,400
+2025-07-27 12:48:37.222152,batch,3,gemma3,"Compare and contrast two of these colours: Red, Blue, Yellow",0.023577,0.028878211975097656,0.0,0.028878211975097656,13,0,,400
+2025-07-27 12:48:37.222259,batch,4,gemma3,Generate a list of five strategies that can be used to achieve a positive attitude.,0.023577,0.028878211975097656,0.0,0.028878211975097656,16,0,,400
+2025-07-27 12:48:37.222350,batch,5,gemma3,"Give two examples of a function that is neither injective, surjective or bijective",0.023577,0.028878211975097656,0.0,0.028878211975097656,16,0,,400
+2025-07-27 12:48:37.222429,batch,6,gemma3,Compare and contrast a data scientist and a software engineer,0.023577,0.028878211975097656,0.0,0.028878211975097656,10,0,,400
+2025-07-27 12:48:37.222514,batch,7,gemma3,Return the following sentence with the words in reverse order. I always keep trying,0.023577,0.028878211975097656,0.0,0.028878211975097656,15,0,,400
+2025-07-27 12:48:37.253670,batch,0,gemma3,Design a user interface for a platform of your choice.,0.024574,0.029901981353759766,0.0,0.029901981353759766,11,0,,400
+2025-07-27 12:48:37.253818,batch,1,gemma3,Generate a short story of fiction with a length of less than 500 words.,0.024574,0.029901981353759766,0.0,0.029901981353759766,18,0,,400
+2025-07-27 12:48:37.253935,batch,2,gemma3,Point out 3 implications that the given phenomenon has had on society. The rise of remote working,0.024574,0.029901981353759766,0.0,0.029901981353759766,19,0,,400
+2025-07-27 12:48:37.254015,batch,3,gemma3,Suggest four places to visit during a weekend trip. Noinput,0.024574,0.029901981353759766,0.0,0.029901981353759766,12,0,,400
+2025-07-27 12:48:37.254113,batch,4,gemma3,What do you think are the major causes of poverty in developing countries? No input required.,0.024574,0.029901981353759766,0.0,0.029901981353759766,18,0,,400
+2025-07-27 12:48:37.254180,batch,5,gemma3,Cite 3 steps to start a web hosting business.,0.024574,0.029901981353759766,0.0,0.029901981353759766,11,0,,400
+2025-07-27 12:48:37.254256,batch,6,gemma3,Create a blog post on the importance of international volunteering.,0.024574,0.029901981353759766,0.0,0.029901981353759766,11,0,,400
+2025-07-27 12:48:37.254343,batch,7,gemma3,"Compute the average price of the items. Apples: $2, Bananas: $3, Oranges: $1.",0.024574,0.029901981353759766,0.0,0.029901981353759766,23,0,,400
+2025-07-27 12:48:37.285013,batch,0,gemma3,Select an example of a psychological disorder and describe its symptoms.,0.024006,0.029481887817382812,0.0,0.029481887817382812,12,0,,400
+2025-07-27 12:48:37.285161,batch,1,gemma3,Generate a report summarizing the main findings of this research paper. This paper examines the performance of students with dyslexia in different learning environments.,0.024006,0.029481887817382812,0.0,0.029481887817382812,27,0,,400
+2025-07-27 12:48:37.285263,batch,2,gemma3,"Add a creative twist to the following poem. Roses are red, 
+Violets are blue, 
+Sugar is sweet, 
+And so are you.",0.024006,0.029481887817382812,0.0,0.029481887817382812,33,0,,400
+2025-07-27 12:48:37.285318,batch,3,gemma3,Describe the climate of your hometown,0.024006,0.029481887817382812,0.0,0.029481887817382812,6,0,,400
+2025-07-27 12:48:37.285378,batch,4,gemma3,Name two features of a reliable e-commerce website,0.024006,0.029481887817382812,0.0,0.029481887817382812,10,0,,400
+2025-07-27 12:48:37.285446,batch,5,gemma3,"Classify the word given as either a noun, verb, adjctive, or adverb fast",0.024006,0.029481887817382812,0.0,0.029481887817382812,17,0,,400
+2025-07-27 12:48:37.285675,batch,6,gemma3,"Identify the strongest argument from this paragraph. The issue of global climate change needs to be addressed now more than ever. Its impacts are being seen all around the world, from rising sea levels to extreme weather patterns. It threatens the future of our planet and all life living on it, as well as whole human societies and economies. We need to take swift and radical action to reduce emissions, invest in sustainable and renewable sources of energy, and explore more options to reduce further and mitigate the impacts of climate change.",0.024006,0.029481887817382812,0.0,0.029481887817382812,101,0,,400
+2025-07-27 12:48:37.285748,batch,7,gemma3,Suggest an appropriate punishment for a child who misbehaved in school.,0.024006,0.029481887817382812,0.0,0.029481887817382812,13,0,,400
+2025-07-27 12:48:37.325444,batch,0,gemma3,"Find the sum of 4703, 2884 and 4758.",0.024587,0.029140233993530273,0.0,0.029140233993530273,22,0,,400
+2025-07-27 12:48:37.325546,batch,1,gemma3,Come up with at least 5 ways to use deep learning in healthcare.,0.024587,0.029140233993530273,0.0,0.029140233993530273,15,0,,400
+2025-07-27 12:48:37.325628,batch,2,gemma3,"Using the provided condition, construct a query in SQL. SELECT column FROM table WHERE condition = true",0.024587,0.029140233993530273,0.0,0.029140233993530273,19,0,,400
+2025-07-27 12:48:37.325686,batch,3,gemma3,Describe a good strategy to promote a blog post.,0.024587,0.029140233993530273,0.0,0.029140233993530273,10,0,,400
+2025-07-27 12:48:37.325752,batch,4,gemma3,How will you address a customer's issue in a respectful and empathetic manner?,0.024587,0.029140233993530273,0.0,0.029140233993530273,16,0,,400
+2025-07-27 12:48:37.325815,batch,5,gemma3,Change the following equation from decimal form to fractional form. 3.75,0.024587,0.029140233993530273,0.0,0.029140233993530273,16,0,,400
+2025-07-27 12:48:37.325876,batch,6,gemma3,Write a story summarizing the latest news about the economy.,0.024587,0.029140233993530273,0.0,0.029140233993530273,11,0,,400
+2025-07-27 12:48:37.325931,batch,7,gemma3,Describe a way to use technology to reduce waste.,0.024587,0.029140233993530273,0.0,0.029140233993530273,10,0,,400
+2025-07-27 12:56:29.244263,batch,0,mistral,"Rewrite this paragraph in the third person narrative. I was walking in the park, enjoying the fresh air and the sound of birds chirping when I noticed a strange figure ahead of me.",0.026477,0.03091883659362793,0.0,0.03091883659362793,40,0,,400
+2025-07-27 12:56:29.244358,batch,1,mistral,"Find the range of numbers 25, 28, 30, 33",0.026477,0.03091883659362793,0.0,0.03091883659362793,20,0,,400
+2025-07-27 12:56:29.244414,batch,2,mistral,Name a kind of tree found in the tropical rainforest.,0.026477,0.03091883659362793,0.0,0.03091883659362793,13,0,,400
+2025-07-27 12:56:29.244488,batch,3,mistral,"Read these two statements and explain why they contradict each other. A piece of paper is heavier than a rock.
+A rock is lighter than a piece of paper.",0.026477,0.03091883659362793,0.0,0.03091883659362793,35,0,,400
+2025-07-27 12:56:29.244542,batch,4,mistral,Explain why this event was significant in history. The fall of the Berlin Wall,0.026477,0.03091883659362793,0.0,0.03091883659362793,16,0,,400
+2025-07-27 12:56:29.244594,batch,5,mistral,Give two natural examples of the law of conservation of energy,0.026477,0.03091883659362793,0.0,0.03091883659362793,11,0,,400
+2025-07-27 12:56:29.244655,batch,6,mistral,"Edit the following code block and make it shorter. for (i=0; i<10; i++) {
+    console.log(""Hello World"");
+}",0.026477,0.03091883659362793,0.0,0.03091883659362793,35,0,,400
+2025-07-27 12:56:29.244700,batch,7,mistral,Identify possible solutions to the problems of climate change.,0.026477,0.03091883659362793,0.0,0.03091883659362793,11,0,,400
+2025-07-27 12:56:29.272520,batch,0,mistral,Combine the sentences so that they make sense. Max checked his watch. It was 7:15pm.,0.022564,0.026826858520507812,0.0,0.026826858520507812,24,0,,400
+2025-07-27 12:56:29.272641,batch,1,mistral,Describe a photo of a girl in a pink dress. https://tinyurl.com/y9ksukna,0.022564,0.026826858520507812,0.0,0.026826858520507812,23,0,,400
+2025-07-27 12:56:29.272701,batch,2,mistral,Give two examples of how technology can improve education.,0.022564,0.026826858520507812,0.0,0.026826858520507812,10,0,,400
+2025-07-27 12:56:29.272749,batch,3,mistral,Generate a professional bio,0.022564,0.026826858520507812,0.0,0.026826858520507812,4,0,,400
+2025-07-27 12:56:29.272799,batch,4,mistral,"Make up a riddle that can be solved by the answer ""honey"".",0.022564,0.026826858520507812,0.0,0.026826858520507812,16,0,,400
+2025-07-27 12:56:29.272845,batch,5,mistral,Reorganize the letters to create a word erteut,0.022564,0.026826858520507812,0.0,0.026826858520507812,12,0,,400
+2025-07-27 12:56:29.272889,batch,6,mistral,Describe the feeling of falling in love.,0.022564,0.026826858520507812,0.0,0.026826858520507812,8,0,,400
+2025-07-27 12:56:29.272950,batch,7,mistral,Convert the following to a fact in the present tense. The company reorganised restructuring their teams,0.022564,0.026826858520507812,0.0,0.026826858520507812,21,0,,400
+2025-07-27 12:56:29.302267,batch,0,mistral,Write a full sentence using the given phrase as an adjective. top-notch,0.024155,0.02842116355895996,0.0,0.02842116355895996,18,0,,400
+2025-07-27 12:56:29.302371,batch,1,mistral,Construct a query for finding customer ratings for a restaurant Restaurant Name: The Oberoi,0.024155,0.02842116355895996,0.0,0.02842116355895996,17,0,,400
+2025-07-27 12:56:29.302454,batch,2,mistral,Design a financial forecasting algorithm using historical data. The historical data involves stock pricing over the past 5 years.,0.024155,0.02842116355895996,0.0,0.02842116355895996,23,0,,400
+2025-07-27 12:56:29.302513,batch,3,mistral,Find the most populous city in South Korea.,0.024155,0.02842116355895996,0.0,0.02842116355895996,10,0,,400
+2025-07-27 12:56:29.302570,batch,4,mistral,What are the different ways of treating depression?,0.024155,0.02842116355895996,0.0,0.02842116355895996,9,0,,400
+2025-07-27 12:56:29.302629,batch,5,mistral,Create a program to accept user input and determine if the input is a prime number No input,0.024155,0.02842116355895996,0.0,0.02842116355895996,18,0,,400
+2025-07-27 12:56:29.302675,batch,6,mistral,Describe the theme of the last novel you read.,0.024155,0.02842116355895996,0.0,0.02842116355895996,10,0,,400
+2025-07-27 12:56:29.302731,batch,7,mistral,Generate a list of four US cities with over one million population.,0.024155,0.02842116355895996,0.0,0.02842116355895996,13,0,,400
+2025-07-27 12:56:29.331418,batch,0,mistral,"Given the input string, generate a phrase that rhymes with it. night",0.023505,0.027762889862060547,0.0,0.027762889862060547,16,0,,400
+2025-07-27 12:56:29.331492,batch,1,mistral,Name an existing product that uses Machine Learning,0.023505,0.027762889862060547,0.0,0.027762889862060547,8,0,,400
+2025-07-27 12:56:29.331578,batch,2,mistral,"Select which of the statements are false. A) Penguins live in the desert 
+B) Penguins live in the Arctic 
+C) Penguins eat plants",0.023505,0.027762889862060547,0.0,0.027762889862060547,38,0,,400
+2025-07-27 12:56:29.331660,batch,3,mistral,Suggest two potential solutions to the problem described in the text below. The number of homeless people in the United States is increasing each year.,0.023505,0.027762889862060547,0.0,0.027762889862060547,28,0,,400
+2025-07-27 12:56:29.331715,batch,4,mistral,What are the best methods for controlling finances?,0.023505,0.027762889862060547,0.0,0.027762889862060547,10,0,,400
+2025-07-27 12:56:29.331760,batch,5,mistral,Name three famous classical composers.,0.023505,0.027762889862060547,0.0,0.027762889862060547,7,0,,400
+2025-07-27 12:56:29.331818,batch,6,mistral,Generate a book review of the given book. Book Title: The Catcher in the Rye,0.023505,0.027762889862060547,0.0,0.027762889862060547,20,0,,400
+2025-07-27 12:56:29.331875,batch,7,mistral,Create a summarizing title for an article about the rising cost of living in the USA.,0.023505,0.027762889862060547,0.0,0.027762889862060547,18,0,,400
+2025-07-27 12:56:29.359739,batch,0,mistral,"Create a one-by-one matrix. 1,2,3",0.022325,0.026977062225341797,0.0,0.026977062225341797,15,0,,400
+2025-07-27 12:56:29.359855,batch,1,mistral,Construct an efficient search query I need to find recipes that use both bananas and apples.,0.022325,0.026977062225341797,0.0,0.026977062225341797,19,0,,400
+2025-07-27 12:56:29.359920,batch,2,mistral,Identify the continents of the world,0.022325,0.026977062225341797,0.0,0.026977062225341797,8,0,,400
+2025-07-27 12:56:29.359997,batch,3,mistral,"Rewrite the following sentence to reflect past tense:
+""He wants to stay late."" He wants to stay late.",0.022325,0.026977062225341797,0.0,0.026977062225341797,25,0,,400
+2025-07-27 12:56:29.360127,batch,4,mistral,"Find the information in the text that is relevant to the given topic. Topic: Solar Energy 
+Text: Solar energy is the conversion of the sun’s radiation into usable heat or electricity. It is collected from the solar radiation reaching the earth’s surface and atmosphere.",0.022325,0.026977062225341797,0.0,0.026977062225341797,57,0,,400
+2025-07-27 12:56:29.360194,batch,5,mistral,Change the following sentece into future tense. I am taking the car for a service today.,0.022325,0.026977062225341797,0.0,0.026977062225341797,20,0,,400
+2025-07-27 12:56:29.360250,batch,6,mistral,Can you name five plants that live in the desert?,0.022325,0.026977062225341797,0.0,0.026977062225341797,11,0,,400
+2025-07-27 12:56:29.360310,batch,7,mistral,Clarify what the speaker said. My colleagues think I'm great.,0.022325,0.026977062225341797,0.0,0.026977062225341797,15,0,,400
+2025-07-27 12:56:29.392490,batch,0,mistral,You are the mayor of a major city and you need to create a budget plan. Please describe how you would do this.,0.026244,0.03116011619567871,0.0,0.03116011619567871,25,0,,400
+2025-07-27 12:56:29.392607,batch,1,mistral,Generate a customer complaint response letter. The customer states that their purchase was missing a crucial part.,0.026244,0.03116011619567871,0.0,0.03116011619567871,19,0,,400
+2025-07-27 12:56:29.392684,batch,2,mistral,Write a story about a person living in a futuristic city wishing to explore the outside world.,0.026244,0.03116011619567871,0.0,0.03116011619567871,21,0,,400
+2025-07-27 12:56:29.392755,batch,3,mistral,Suggest a product to a customer. A customer is looking for a phone for video calling.,0.026244,0.03116011619567871,0.0,0.03116011619567871,19,0,,400
+2025-07-27 12:56:29.392814,batch,4,mistral,Describe the physiological effects of caffeine,0.026244,0.03116011619567871,0.0,0.03116011619567871,10,0,,400
+2025-07-27 12:56:29.392881,batch,5,mistral,"Identify the given type of figure of speech. ""The early bird catches the worm""",0.026244,0.03116011619567871,0.0,0.03116011619567871,19,0,,400
+2025-07-27 12:56:29.392959,batch,6,mistral,"Edit this sentence to make it more engaging ""The world is full of wonders"". The world is full of wonders",0.026244,0.03116011619567871,0.0,0.03116011619567871,24,0,,400
+2025-07-27 12:56:29.393026,batch,7,mistral,Create a new recipe with crab and baby spinach as the main ingredients.,0.026244,0.03116011619567871,0.0,0.03116011619567871,16,0,,400
+2025-07-27 12:56:29.422569,batch,0,mistral,Describe the science behind why plants are green.,0.023403,0.028534889221191406,0.0,0.028534889221191406,9,0,,400
+2025-07-27 12:56:29.422673,batch,1,mistral,Generate a list of questions to determine the customer's opinion of a product.,0.023403,0.028534889221191406,0.0,0.028534889221191406,16,0,,400
+2025-07-27 12:56:29.422751,batch,2,mistral,Suggest a creative solution to the issue of global warming,0.023403,0.028534889221191406,0.0,0.028534889221191406,12,0,,400
+2025-07-27 12:56:29.422815,batch,3,mistral,Provide instructions for changing a bicycle tire.,0.023403,0.028534889221191406,0.0,0.028534889221191406,10,0,,400
+2025-07-27 12:56:29.422877,batch,4,mistral,Describe a social event you recently attended.,0.023403,0.028534889221191406,0.0,0.028534889221191406,8,0,,400
+2025-07-27 12:56:29.422988,batch,5,mistral,"Create a conversation between two friends, one of them has to be indifferent towards the other person's opinion. Friends: John and Mia
+Location: Mia's house",0.023403,0.028534889221191406,0.0,0.028534889221191406,37,0,,400
+2025-07-27 12:56:29.423058,batch,6,mistral,Sort the words in the sentence in alphabetical order. I like to play chess.,0.023403,0.028534889221191406,0.0,0.028534889221191406,19,0,,400
+2025-07-27 12:56:29.423114,batch,7,mistral,Describe the effects of type 2 diabetes on the body.,0.023403,0.028534889221191406,0.0,0.028534889221191406,12,0,,400
+2025-07-27 12:56:29.453917,batch,0,mistral,Describe the use of a firewall for an operating system.,0.024642,0.02981090545654297,0.0,0.02981090545654297,12,0,,400
+2025-07-27 12:56:29.454013,batch,1,mistral,Create a user flow of a website for online shopping.,0.024642,0.02981090545654297,0.0,0.02981090545654297,11,0,,400
+2025-07-27 12:56:29.454116,batch,2,mistral,"Create a chart that shows how market prices change over time. Market prices of corn, wheat, and soybean on April 1 and April 15",0.024642,0.02981090545654297,0.0,0.02981090545654297,32,0,,400
+2025-07-27 12:56:29.454226,batch,3,mistral,"Provide a title to the following text. The main elements of a business plan are the purpose of the business, target market, financials, marketing strategies, and operations.",0.024642,0.02981090545654297,0.0,0.02981090545654297,35,0,,400
+2025-07-27 12:56:29.454294,batch,4,mistral,What are the differences between dynamic and static web pages?,0.024642,0.02981090545654297,0.0,0.02981090545654297,11,0,,400
+2025-07-27 12:56:29.454353,batch,5,mistral,Explain why the death penalty should be abolished.,0.024642,0.02981090545654297,0.0,0.02981090545654297,11,0,,400
+2025-07-27 12:56:29.454412,batch,6,mistral,Summarize what a graphite pencil is composed of.,0.024642,0.02981090545654297,0.0,0.02981090545654297,13,0,,400
+2025-07-27 12:56:29.454478,batch,7,mistral,Create a list of 4 tips to become a better public speaker.,0.024642,0.02981090545654297,0.0,0.02981090545654297,14,0,,400
+2025-07-27 13:04:56.335577,batch,0,meta-llama,"Classify this sentence: ""I am running to the store"".",0.027761,0.03276801109313965,0.0,0.03276801109313965,13,0,,400
+2025-07-27 13:04:56.335736,batch,1,meta-llama,"Given a sentence about relationships, provide a related new sentence that emphasizes how feelings are stronger than facts. Relationships are based on shared interests and respect.",0.027761,0.03276801109313965,0.0,0.03276801109313965,29,0,,400
+2025-07-27 13:04:56.335792,batch,2,meta-llama,Convert the word discovery into a noun,0.027761,0.03276801109313965,0.0,0.03276801109313965,7,0,,400
+2025-07-27 13:04:56.335858,batch,3,meta-llama,"Given the following statement, provide an example of a sentence in which it could be used. Furthermore",0.027761,0.03276801109313965,0.0,0.03276801109313965,19,0,,400
+2025-07-27 13:04:56.335918,batch,4,meta-llama,Formulate a set of rules for participating in a charity marathon.,0.027761,0.03276801109313965,0.0,0.03276801109313965,13,0,,400
+2025-07-27 13:04:56.335973,batch,5,meta-llama,"Create a rap-like phrase using given two words. energy, flow",0.027761,0.03276801109313965,0.0,0.03276801109313965,13,0,,400
+2025-07-27 13:04:56.336052,batch,6,meta-llama,"Given this sentence, predict the part of speech of the word “groomed”
+
+He groomed the puppy until it was perfectly clean",0.027761,0.03276801109313965,0.0,0.03276801109313965,27,0,,400
+2025-07-27 13:04:56.336121,batch,7,meta-llama,Classify the following sentence as true or false: Staying up late at night can cause stress Staying up late at night can cause stress,0.027761,0.03276801109313965,0.0,0.03276801109313965,28,0,,400
+2025-07-27 13:04:56.367118,batch,0,meta-llama,"Generate an informal, creative description of a garden.",0.024798,0.029838085174560547,0.0,0.029838085174560547,10,0,,400
+2025-07-27 13:04:56.367285,batch,1,meta-llama,"Indicate if the following statement is true, false or uncertain. Humanoid robots will take over the world by 2030.",0.024798,0.029838085174560547,0.0,0.029838085174560547,26,0,,400
+2025-07-27 13:04:56.367348,batch,2,meta-llama,How can natural language processing (NLP) be used to improve search engine results?,0.024798,0.029838085174560547,0.0,0.029838085174560547,17,0,,400
+2025-07-27 13:04:56.367395,batch,3,meta-llama,When was the Declaration of Independence written?,0.024798,0.029838085174560547,0.0,0.029838085174560547,8,0,,400
+2025-07-27 13:04:56.367461,batch,4,meta-llama,"Rewrite the following sentence in the past tense, deleting unnecessary words in the process:
+""I am going to call her"".",0.024798,0.029838085174560547,0.0,0.029838085174560547,24,0,,400
+2025-07-27 13:04:56.367509,batch,5,meta-llama,Come up with a list of 5 questions for a website usability survey.,0.024798,0.029838085174560547,0.0,0.029838085174560547,15,0,,400
+2025-07-27 13:04:56.367552,batch,6,meta-llama,Find the biggest chance of rain in the next 10 days.,0.024798,0.029838085174560547,0.0,0.029838085174560547,13,0,,400
+2025-07-27 13:04:56.367620,batch,7,meta-llama,Insert a relevant quote in the following text. Personality plays an important role in determining a person's success both in their professional and personal life.,0.024798,0.029838085174560547,0.0,0.029838085174560547,28,0,,400
+2025-07-27 13:04:56.403157,batch,0,meta-llama,Give an advice to the following patient A 17-years-old who is showing symptoms of anxiety,0.029228,0.034258127212524414,0.0,0.034258127212524414,18,0,,400
+2025-07-27 13:04:56.403276,batch,1,meta-llama,"Write an email to a customer offering a recent product. Company Name: SuperTrike
+Product Name: HoverTrike",0.029228,0.034258127212524414,0.0,0.034258127212524414,24,0,,400
+2025-07-27 13:04:56.403338,batch,2,meta-llama,Design a holiday postcard about a beach vacation.,0.029228,0.034258127212524414,0.0,0.034258127212524414,10,0,,400
+2025-07-27 13:04:56.403420,batch,3,meta-llama,"For the provided stock market data, predict its price at the end of the day Apple (AAPL) opened today at $135.14 and is currently trading at $135.56",0.029228,0.034258127212524414,0.0,0.034258127212524414,37,0,,400
+2025-07-27 13:04:56.403475,batch,4,meta-llama,Write a few sentences that describe the impact of poverty on education.,0.029228,0.034258127212524414,0.0,0.034258127212524414,13,0,,400
+2025-07-27 13:04:56.403530,batch,5,meta-llama,Write a scientific paper about studying the effectiveness of artificial intelligence,0.029228,0.034258127212524414,0.0,0.034258127212524414,11,0,,400
+2025-07-27 13:04:56.403588,batch,6,meta-llama,Write a 3-minute speech about current trends in [AI Technology].,0.029228,0.034258127212524414,0.0,0.034258127212524414,14,0,,400
+2025-07-27 13:04:56.403650,batch,7,meta-llama,"Classify the following photo as either a car, animal, or flower. Attached photo of a car",0.029228,0.034258127212524414,0.0,0.034258127212524414,20,0,,400
+2025-07-27 13:04:56.433665,batch,0,meta-llama,"Classify the following items as fruits, vegetables or grains. Apples, Asparagus, Wheat",0.024426,0.029029130935668945,0.0,0.029029130935668945,19,0,,400
+2025-07-27 13:04:56.433783,batch,1,meta-llama,Describe a country that has a population of over 100 million people.,0.024426,0.029029130935668945,0.0,0.029029130935668945,14,0,,400
+2025-07-27 13:04:56.433907,batch,2,meta-llama,"Choose the statement that best suits the given context. Context: 
+You are talking to a close friend about the situation with your current job.
+
+A) I don't have many options.
+B) I have no other choice.
+C) I don't really have a decision to make.",0.024426,0.029029130935668945,0.0,0.029029130935668945,57,0,,400
+2025-07-27 13:04:56.433993,batch,3,meta-llama,"For a given photo, list a celebrity that it resembles. https://images.unsplash.com/photo-1511918984145-48de785d4c4d",0.024426,0.029029130935668945,0.0,0.029029130935668945,33,0,,400
+2025-07-27 13:04:56.434054,batch,4,meta-llama,Create a table of the top 10 countries with the highest population density.,0.024426,0.029029130935668945,0.0,0.029029130935668945,15,0,,400
+2025-07-27 13:04:56.434106,batch,5,meta-llama,Provide an example of a skill worth learning,0.024426,0.029029130935668945,0.0,0.029029130935668945,8,0,,400
+2025-07-27 13:04:56.434162,batch,6,meta-llama,Create a creative metaphor which describes the aroma of a cup of coffee.,0.024426,0.029029130935668945,0.0,0.029029130935668945,14,0,,400
+2025-07-27 13:04:56.434216,batch,7,meta-llama,Generate a creative children's book about a quest for a magical item,0.024426,0.029029130935668945,0.0,0.029029130935668945,13,0,,400
+2025-07-27 13:04:56.463612,batch,0,meta-llama,Come up with an example uses for machine learning.,0.025087,0.028294086456298828,0.0,0.028294086456298828,10,0,,400
+2025-07-27 13:04:56.463710,batch,1,meta-llama,Discuss the efforts of the United Nations to advance world peace.,0.025087,0.028294086456298828,0.0,0.028294086456298828,12,0,,400
+2025-07-27 13:04:56.463786,batch,2,meta-llama,Suggest some activities that can be done with a 3 year old child.,0.025087,0.028294086456298828,0.0,0.028294086456298828,16,0,,400
+2025-07-27 13:04:56.463850,batch,3,meta-llama,Describe a place that has a special meaning to you.,0.025087,0.028294086456298828,0.0,0.028294086456298828,11,0,,400
+2025-07-27 13:04:56.463946,batch,4,meta-llama,"You are given a code, you need to suggest an improvement for its performance. int sum = 0; 
+for (int i = 0; i < 10; i++) { 
+   sum = sum + i; 
+}",0.025087,0.028294086456298828,0.0,0.028294086456298828,49,0,,400
+2025-07-27 13:04:56.464021,batch,5,meta-llama,Find all the adverbs present in the given sentence. I quickly ran away from the dog.,0.025087,0.028294086456298828,0.0,0.028294086456298828,19,0,,400
+2025-07-27 13:04:56.464082,batch,6,meta-llama,Can you think of a few ways in which technology has impacted employment?,0.025087,0.028294086456298828,0.0,0.028294086456298828,14,0,,400
+2025-07-27 13:04:56.464136,batch,7,meta-llama,Predict the sum of two integers. 3 + 5,0.025087,0.028294086456298828,0.0,0.028294086456298828,12,0,,400
+2025-07-27 13:04:56.496336,batch,0,meta-llama,Arrange the words below in a meaningful order moon stars night twinkle,0.026519,0.031217098236083984,0.0,0.031217098236083984,13,0,,400
+2025-07-27 13:04:56.496425,batch,1,meta-llama,Generate a list of topics to include in a given document. A guide to creating a business plan,0.026519,0.031217098236083984,0.0,0.031217098236083984,19,0,,400
+2025-07-27 13:04:56.496501,batch,2,meta-llama,Tell me a story your grandparent told you when you were young.,0.026519,0.031217098236083984,0.0,0.031217098236083984,14,0,,400
+2025-07-27 13:04:56.496574,batch,3,meta-llama,"Reorder the following list of instructions in a logical way Finish the presentation, Set alarms, Respond to emails",0.026519,0.031217098236083984,0.0,0.031217098236083984,21,0,,400
+2025-07-27 13:04:56.496624,batch,4,meta-llama,Describe a character from a book,0.026519,0.031217098236083984,0.0,0.031217098236083984,6,0,,400
+2025-07-27 13:04:56.496684,batch,5,meta-llama,Explain the concept of reusability in software development.,0.026519,0.031217098236083984,0.0,0.031217098236083984,12,0,,400
+2025-07-27 13:04:56.496736,batch,6,meta-llama,Generate two powerful and unique metaphors.,0.026519,0.031217098236083984,0.0,0.031217098236083984,8,0,,400
+2025-07-27 13:04:56.496800,batch,7,meta-llama,"Write a function to check if the given word is a palindrome. word = ""racecar""",0.026519,0.031217098236083984,0.0,0.031217098236083984,19,0,,400
+2025-07-27 13:04:56.526022,batch,0,meta-llama,Generate a couplet that evokes the feeling of spring.,0.023443,0.028283119201660156,0.0,0.028283119201660156,12,0,,400
+2025-07-27 13:04:56.526092,batch,1,meta-llama,Name three shapes that have six sides,0.023443,0.028283119201660156,0.0,0.028283119201660156,7,0,,400
+2025-07-27 13:04:56.526166,batch,2,meta-llama,Construct a web page for a fictitious online store called 'MyStore'.,0.023443,0.028283119201660156,0.0,0.028283119201660156,15,0,,400
+2025-07-27 13:04:56.526227,batch,3,meta-llama,"What does the phrase ""it takes two to tango"" mean?",0.023443,0.028283119201660156,0.0,0.028283119201660156,14,0,,400
+2025-07-27 13:04:56.526276,batch,4,meta-llama,Name a famous jazz musician,0.023443,0.028283119201660156,0.0,0.028283119201660156,5,0,,400
+2025-07-27 13:04:56.526335,batch,5,meta-llama,Classify this sentence as grammatically correct or incorrect This sentence is incorrect,0.023443,0.028283119201660156,0.0,0.028283119201660156,14,0,,400
+2025-07-27 13:04:56.526382,batch,6,meta-llama,Suggest a relaxing bedtime routine.,0.023443,0.028283119201660156,0.0,0.028283119201660156,7,0,,400
+2025-07-27 13:04:56.526427,batch,7,meta-llama,Explain the term computer memory.,0.023443,0.028283119201660156,0.0,0.028283119201660156,7,0,,400
+2025-07-27 13:04:56.555959,batch,0,meta-llama,"Identify the subject of this sentence: ""George has always been a diligent student.""",0.023583,0.02853703498840332,0.0,0.02853703498840332,17,0,,400
+2025-07-27 13:04:56.556042,batch,1,meta-llama,Suggest a method to increase customer engagement on social media.,0.023583,0.02853703498840332,0.0,0.02853703498840332,12,0,,400
+2025-07-27 13:04:56.556111,batch,2,meta-llama,Develop a marketing strategy for a hypothetical pet food company.,0.023583,0.02853703498840332,0.0,0.02853703498840332,11,0,,400
+2025-07-27 13:04:56.556188,batch,3,meta-llama,Categorize the given information as qualitative or quantitative. The opinion of the public on the new mayor.,0.023583,0.02853703498840332,0.0,0.02853703498840332,21,0,,400
+2025-07-27 13:04:56.556240,batch,4,meta-llama,List three features of the moon.,0.023583,0.02853703498840332,0.0,0.02853703498840332,7,0,,400
+2025-07-27 13:04:56.556301,batch,5,meta-llama,Summarize the poem 'The Road Not Taken' in two sentences,0.023583,0.02853703498840332,0.0,0.02853703498840332,14,0,,400
+2025-07-27 13:04:56.556368,batch,6,meta-llama,"Complete the given table. Car Model | Price | Color
+Ford Mustang |  |",0.023583,0.02853703498840332,0.0,0.02853703498840332,17,0,,400
+2025-07-27 13:04:56.556427,batch,7,meta-llama,Output a recipe for making a veggie sandwich.,0.023583,0.02853703498840332,0.0,0.02853703498840332,10,0,,400

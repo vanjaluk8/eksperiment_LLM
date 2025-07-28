@@ -1,0 +1,245 @@
+Count,Message,Traceback,Nodes
+12,timed out,"  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 490, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/locustfile.py"", line 111, in chat_test
+    metrics_df = send_chat_like_test(self.model_name, self.model_url, initial_prompt, self.count_tokens, n_turns=N_TURNS)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 60, in send_chat_like_test
+    df = send_prompt_request(model, url, full_prompt, count_tokens)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 36, in send_prompt_request
+    response, latency = send_request(url, payload)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 19, in send_request
+    response = httpx.post(url, headers=headers, json=payload, timeout=180.0)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 304, in post
+    return request(
+        ""POST"",
+    ...<13 lines>...
+        trust_env=trust_env,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 109, in request
+    return client.request(
+           ~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        follow_redirects=follow_redirects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py"", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+",local
+11,timed out,"  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 490, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/locustfile.py"", line 47, in prompt_test
+    metrics_df = send_prompt_request(self.model_name, self.model_url, prompt, self.count_tokens)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 36, in send_prompt_request
+    response, latency = send_request(url, payload)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 19, in send_request
+    response = httpx.post(url, headers=headers, json=payload, timeout=180.0)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 304, in post
+    return request(
+        ""POST"",
+    ...<13 lines>...
+        trust_env=trust_env,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 109, in request
+    return client.request(
+           ~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        follow_redirects=follow_redirects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py"", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+",local
+13,timed out,"  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 490, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/locustfile.py"", line 77, in summarize_test
+    metrics_df = send_summarize_document_test(self.model_name, self.model_url, prompt, self.count_tokens)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 74, in send_summarize_document_test
+    df = send_prompt_request(model, url, prompt, count_tokens)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 36, in send_prompt_request
+    response, latency = send_request(url, payload)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 19, in send_request
+    response = httpx.post(url, headers=headers, json=payload, timeout=180.0)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 304, in post
+    return request(
+        ""POST"",
+    ...<13 lines>...
+        trust_env=trust_env,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 109, in request
+    return client.request(
+           ~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        follow_redirects=follow_redirects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py"", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+",local
+7,timed out,"  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 490, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/locustfile.py"", line 104, in batch_test
+    metrics_df = send_batch_prompt_test(self.model_name, self.model_url, prompt, self.count_tokens)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 91, in send_batch_prompt_test
+    response, latency = send_request(url, payload)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/application/load_tester.py"", line 19, in send_request
+    response = httpx.post(url, headers=headers, json=payload, timeout=180.0)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 304, in post
+    return request(
+        ""POST"",
+    ...<13 lines>...
+        trust_env=trust_env,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_api.py"", line 109, in request
+    return client.request(
+           ~~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        follow_redirects=follow_redirects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_client.py"", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py"", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File ""/Users/vluk/infobip-git/eksperiment_LLM/.venv/lib/python3.13/site-packages/httpx/_transports/default.py"", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+",local

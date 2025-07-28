@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+POST,gemma3/infer,HTTPError('400 Client Error: Bad Request for url: gemma3/infer'),824
+POST,mistral/infer,HTTPError('400 Client Error: Bad Request for url: mistral/infer'),55
+POST,gemma3/infer,HTTPError('500 Server Error: Internal Server Error for url: gemma3/infer'),1573
+POST,meta-llama/infer,HTTPError('400 Client Error: Bad Request for url: meta-llama/infer'),45
