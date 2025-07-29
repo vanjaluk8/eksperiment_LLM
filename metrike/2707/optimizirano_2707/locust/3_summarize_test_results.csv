@@ -1,41 +1,8 @@
 timestamp,test_name,prompt_index,model,prompt,ttft,tpot,tokens_per_sec,latency,prompt_tokens,output_tokens,output_text,status_code
-2025-07-27 12:10:15.419385,summarizer,0,meta-llama,"Summarize the following document in 1500 words:
-
-
-
-Summary:",18.402992,0.0015104412299146723,662.0581987532821,18.41378903388977,12063,12191,"Summarize the following document in 1500 words:
-
-
-The modern game of football originated in 19th-century England, where various forms of ""folk football"" existed. The Football Association (FA) was established in 1863, laying down the",200
-2025-07-27 12:10:24.989230,summarizer,0,meta-llama,"Summarize the following document in 1500 words:
-
-
-
-Summary:",87.54005,0.007181679348823974,139.24319806393942,87.55185294151306,12063,12191,"Summarize the following document in 1500 words:
-
-2025-07-27 12:10:26.863456,summarizer,0,mistral,"Summarize the following document in 1500 words:
-
-
-
-Summary:",17.125948,0.0012231974600724759,817.5294935134584,17.140666007995605,13885,14013,"Summarize the following document in 1500 words:
-
-2025-07-27 12:10:29.297910,summarizer,0,meta-llama,"Summarize the following document in 1500 words:
-
-
-
-Summary:",11.398592,0.0009358040313119915,1068.599799252848,11.408386945724487,12063,12191,"Summarize the following document in 1500 words:
-
-Summarize this document in 1500 words:
-
-0
-
-Summary:
-
-Summary: European football has a rich history that spans over a century and a half. From its humble beginnings in 19th-century England to its current status as a global powerhouse, the sport has evolved dramatically, influenced by social, political, and economic changes across the continent.
-
-Early Origins and Formation (Late 19th - Early 20th Century)
-
-The modern game of football, as we know it, has its roots firmly planted in 19th-century England. The Football Association (FA) was formed in 1863, establishing standardized rules that distinguished football from rugby. The game's spread to continental Europe was swift, facilitated by British exp",200
+2025-07-27 12:10:15.419385,summarizer,0,meta-llama,0,18.402992,0.0015104412299146723,662.0581987532821,18.41378903388977,12063,12191,0,200
+2025-07-27 12:10:24.989230,summarizer,0,meta-llama,0,87.54005,0.007181679348823974,139.24319806393942,87.55185294151306,12063,12191,0,200
+2025-07-27 12:10:26.863456,summarizer,0,mistral,0,17.125948,0.0012231974600724759,817.5294935134584,17.140666007995605,13885,14013,0,200
+2025-07-27 12:10:29.297910,summarizer,0,meta-llama,0,11.398592,0.0009358040313119915,1068.599799252848,11.408386945724487,12063,12191,0,200
 2025-07-27 12:10:54.038834,summarizer,0,mistral,"Summarize the following document in 1500 words:
 
 Summarize this document in 1500 words:
