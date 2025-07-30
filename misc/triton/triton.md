@@ -1,5 +1,7 @@
-# folder struktura
+# NVIDIA TRITON INFERENCE SERVER
 
+## Folder struktura za pojedini model
+```bash 
 ├── hgf_models
 │    └── Mistral-7B-Instruct-v0.3
 ├── model_repo
@@ -7,9 +9,62 @@
 └── triton_model_repo
     └── mistral
         └── 1
+```
 
+## Skripta za preuzimanje modela sa huggingface-a
+```python
+    from huggingface_hub import snapshot_download
+    
+    snapshot_download(
+        repo_id="mistralai/Mistral-7B-Instruct-v0.3",
+        local_dir="/raid/models/hgf_models/Mistral-7B-Instruct-v0.3",
+        local_dir_use_symlinks=False  # ensures actual files, not symlinks
+    )
+```
 
-#triton 3 LLMa
+## Konfiguracija za model korištenjem pytorch-a
+```python
+    import triton_python_backend_utils as pb_utils
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    import torch
+    import numpy as np
+    
+    torch.set_float32_matmul_precision("high")
+    
+    
+    class TritonPythonModel:
+        def initialize(self, args):
+            self.tokenizer = AutoTokenizer.from_pretrained("/models/hf/mistral")
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+            self.model = AutoModelForCausalLM.from_pretrained(
+                "/models/hf/mistral",
+                torch_dtype=torch.bfloat16,
+                device_map="auto"
+            )
+            self.model.eval()
+    
+        def execute(self, requests):
+            responses = []
+            for request in requests:
+                input_tensor = pb_utils.get_input_tensor_by_name(request, "text_input")
+                input_array = input_tensor.as_numpy()  # shape: (batch_size, 1)
+                input_texts = [x[0].decode("utf-8") for x in input_array]
+    
+                # Tokenize as a batch
+                inputs = self.tokenizer(input_texts, return_tensors="pt", padding=True).to("cuda")
+                outputs = self.model.generate(**inputs, max_new_tokens=128)
+                decoded = [self.tokenizer.decode(o, skip_special_tokens=True) for o in outputs]
+    
+                output_tensor = pb_utils.Tensor(
+                    "text_output", np.array([d.encode('utf-8') for d in decoded], dtype=object)
+                )
+                responses.append(pb_utils.InferenceResponse([output_tensor]))
+            return responses
+
+```
+
+## Konzolni ispis pokretanja Triton Inference Servera
+```bash 
 I0714 06:49:34.597221 1 model_lifecycle.cc:473] "loading: gemma3:1"
 I0714 06:49:34.597239 1 model_lifecycle.cc:473] "loading: meta-llama:1"
 I0714 06:49:34.597250 1 model_lifecycle.cc:473] "loading: mistral:1"
@@ -42,11 +97,11 @@ I0715 16:30:27.670984 1 python_be.cc:2289] "TRITONBACKEND_ModelInstanceInitializ
 I0715 16:30:27.672273 1 python_be.cc:2289] "TRITONBACKEND_ModelInstanceInitialize: meta-llama_5_0 (GPU device 5)"
 I0715 16:30:27.732455 1 python_be.cc:2289] "TRITONBACKEND_ModelInstanceInitialize: meta-llama_7_0 (GPU device 7)"
 I0715 16:30:27.848899 1 python_be.cc:2289] "TRITONBACKEND_ModelInstanceInitialize: gemma3_0_0 (GPU device 0)"
+```
 
-# tensorrt
-
-###### tensorrt dio
-
+## Osnovni config.pbtxt za model gemma3
+U ovom primjeru koristimo ONNX model gemma3, koji je već konvertiran i spreman za korištenje u Triton Inference Serveru.
+```protobuf
 config.pbtxt
 name: "rt-gemma3"
 platform: "onnxruntime_onnx"
@@ -72,6 +127,4 @@ output [
     dims: [ -1 ]
   }
 ]
-
-# gemma problemi kod pokretanja testova sa user strane
-E0724 06:29:07.070951 1 pb_stub.cc:736] "Failed to process the request(s) for model 'gemma3_0_0', message: FailOnRecompileLimitHit: recompile_limit reached with one_graph=True or error_on_graph_break=True. Excessive recompilations can degrade performance due to the compilation overhead of each recompilation. To monitor recompilations, enable TORCH_LOGS=recompiles. If recompilations are expected, consider increasing torch._dynamo.config.cache_size_limit to an appropriate value
+```

@@ -1,4 +1,4 @@
-test,model,batch_size,floating_point,concurrency_range,kv_cache,Concurrency,Inferences/Second,Client Send,Network+Server Send/Recv,Server Queue,Server Compute Input,Server Compute Infer,Server Compute Output,Client Recv,p50 latency,p90 latency,p95 latency,p99 latency,request/response,response wait
+test,model,batch_size,floating_point,concurrency,kv_cache,Concurrency,Inferences/Second,Client Send,Network+Server Send/Recv,Server Queue,Server Compute Input,Server Compute Infer,Server Compute Output,Client Recv,p50 latency,p90 latency,p95 latency,p99 latency,request/response,response wait
 omega,gemma3,1,fp16,1:64:16,0,49,0.642323,209,2978,70243180,15,1540416,43,0,73581478,75187610,75229470,75273560,209,71786625
 omega,gemma3,1,fp16,1:64:16,0,1,0.642326,50,775,128,17,1520562,38,0,1521312,1523512,1523770,1527918,50,1521517
 omega,gemma3,1,fp16,1:64:16,0,17,0.65968,63,871,24127185,16,1533147,41,0,25870751,26333939,26346074,26362752,63,25661254

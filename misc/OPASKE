@@ -11,7 +11,7 @@ E0727 11:15:42.933588 1 pb_stub.cc:736] "Failed to process the request(s) for mo
 
 
 Šta znači poruka?
-TorchDynamo pokušava dinamički "kompajlirati" (optimizirati) graf vašeg modela tokom izvršavanja.
+TorchDynamo pokušava dinamički "kompajl te dnyamirati" (optimizirati) graf vašeg modela tokom izvršavanja.
 Svaki "graph break" (prepreka koja sprečava potpuni tracing modela zbog raznih dinamika ili nesigurnih operacija) može prouzrokovati novu kompilaciju.
 recompile_limit reached znači da je broj dozvoljenih rekompilacija prešao zadatu vrednost (standardno ih može biti 20).
 Svaka rekompilacija troši vreme i pamćenje, i to nije poželjno, zato PyTorch baca ovu grešku.

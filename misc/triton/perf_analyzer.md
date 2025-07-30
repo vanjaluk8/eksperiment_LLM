@@ -1,25 +1,34 @@
-# docker
-docker run --rm -d --net=host -it nvcr.io/nvidia/tritonserver:24.05-py3-sdk
+# NVIDIA Triton Inference Server - Performance Analyzer (perf_analyzer)
 
-# osnovni testovi
-# A. Baseline Latency/Throughput
-perf_analyzer -m mistral -u localhost:8000 --concurrency-range 1:1
-perf_analyzer -m gemma3 -u localhost:8000 --concurrency-range 1:1
-perf_analyzer -m meta-llama -u localhost:8000 --concurrency-range 1:1
-
-# B. Scaling Concurrency
-perf_analyzer -m mistral -u localhost:8001 --concurrency-range 1:4
-# detaljnije
-perf_analyzer -m gemma3 -u localhost:8001 --concurrency-range 1:16:2
-
-# C. Batch Size Scaling
-perf_analyzer -m meta-llama -u localhost:8001 --batch-size 4 --concurrency-range 1:4
-
-# D. Vary Sequence Length / Prompt Size
-perf_analyzer -m gemma3 -u localhost:8001 --concurrency-range 1:4 --percentile 95
+## Pokreće se putem docker  run komande
+```bash
+  docker run --rm -d --net=host -it nvcr.io/nvidia/tritonserver:24.05-py3-sdk
+```
 
 
-# ispis testa u terminalu
+## Osnovni testovi pokretnuti iz konzole
+### A. Baseline Latency/Throughput
+```bash
+  perf_analyzer -m mistral -u localhost:8000 --concurrency-range 1:1
+  perf_analyzer -m gemma3 -u localhost:8000 --concurrency-range 1:1
+  perf_analyzer -m meta-llama -u localhost:8000 --concurrency-range 1:1
+```
+### B. Scaling Concurrency
+```bash
+  perf_analyzer -m mistral -u localhost:8000 --concurrency-range 1:4
+  perf_analyzer -m gemma3 -u localhost:8000 --concurrency-range 1:16:2
+```
+### C. Batch Size Scaling
+```bash
+  perf_analyzer -m meta-llama -u localhost:8000 --batch-size 4 --concurrency-range 1:4
+```
+### D. Vary Sequence Length / Prompt Size
+```bash
+  perf_analyzer -m gemma3 -u localhost:8000 --concurrency-range 1:4 --percentile 95
+```
+
+### Ispis testa u terminalu
+```bash
    Request count: 478
     Throughput: 5.90113 infer/sec
     p50 latency: 693918210 usec
@@ -32,3 +41,4 @@ perf_analyzer -m gemma3 -u localhost:8001 --concurrency-range 1:4 --percentile 9
     Execution count: 478
     Successful request count: 478
     Avg request latency: 695099710 usec (overhead 1 usec + queue 692389668 usec + compute input 18 usec + compute infer 2709978 usec + compute output 43 usec)
+```
