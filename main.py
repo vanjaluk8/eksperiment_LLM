@@ -24,7 +24,7 @@ alpaca_prompts = [
 ]
 
 
-# Promptovi za testiranje, uzmi na random 20 iz Alpaca dataset-a
+# Promptovi za testiranje, uzmi na random iz Alpaca dataset-a
 NUM_PROMPTS = 175
 N_TURNS = 3
 BATCH_SIZE = 8
@@ -66,18 +66,23 @@ def main():
         summarize_df = send_summarize_document_test(model_name, model_url, document, count_tokens)
         summarize_results.extend(summarize_df.to_dict(orient="records"))
 
-        print(f"\n=== Test batch prompta veličine {BATCH_SIZE * NUM_BATCHES}: {model_name} ===")
+        print(f"\n=== Test batch prompta velicine {BATCH_SIZE * NUM_BATCHES}: {model_name} ===")
         batch_test_prompts = random.sample(alpaca_prompts, TOTAL_PROMPTS)
         for i in range(0, TOTAL_PROMPTS, BATCH_SIZE):
             batch = batch_test_prompts[i:i + BATCH_SIZE]
             batch_df = send_batch_prompt_test(model_name, model_url, batch, count_tokens)
             batch_results.extend(batch_df.to_dict(orient='records'))
 
-    pd.DataFrame(single_results).to_csv("metrike/obrada_gotova/prompts_single/1_prompt_test_results.csv", index=False)
-    pd.DataFrame(chat_results).to_csv("metrike/obrada_gotova/prompts_single/2_chat_test_results.csv", index=False)
-    pd.DataFrame(summarize_results).to_csv("metrike/obrada_gotova/prompts_single/3_summarize_test_results.csv", index=False)
-    pd.DataFrame(batch_results).to_csv("metrike/obrada_gotova/prompts_single/4_batch_test_results.csv", index=False)
-    print("\nGotovo, rezultati su spremljeni u 'metrike/prompts_single/' folder.")
+    pd.DataFrame(single_results).to_csv(
+        "metrike/obrada_gotova/prompts_single/1_prompt_test_results.csv", index=False)
+    pd.DataFrame(chat_results).to_csv(
+        "metrike/obrada_gotova/prompts_single/2_chat_test_results.csv", index=False)
+    pd.DataFrame(summarize_results).to_csv(
+        "metrike/obrada_gotova/prompts_single/3_summarize_test_results.csv", index=False)
+    pd.DataFrame(batch_results).to_csv(
+        "metrike/obrada_gotova/prompts_single/4_batch_test_results.csv", index=False)
+    print("\nGotovo, rezultati su spremljeni "
+          "u 'metrike/prompts_single/' folder.")
 
 if __name__ == "__main__":
     main()
