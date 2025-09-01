@@ -14,7 +14,7 @@ veliki jezični modeli, raspodijeljeni računalni sustavi, optimizacija inferenc
 ## O repozitoriju i svrha
 U ovom repozitoriju nalaze se skripte i materijali za testiranje i benchmarking velikih jezičnih modela (LLM-ova) koristeći *NVIDIA Triton Inference Server*. Ovaj repozitorij sadrži sav materijal korišten u parktičnom dijelu diplomskog rada, uključujući skripte za izvođenje eksperimenata, testiranje performansi, metrike i analizu rezultata.
 
-Svrha eksperimenta je dokazati da veliki jezični modeli u raspodijeljenjim sustavima mogu postizati visoke performanse uz pravilno konfigurirnje postavki služenja modela i optimizaciju infrastrukture.
+Svrha eksperimenta je dokazati da veliki jezični modeli u raspodijeljenjim sustavima postižu visoke performanse uz pravilno konfigurirnje postavki služenja modela i optimizaciju infrastrukture, tj. da optimizacija parametara inferencijskog servera i jezičnih modela u raspodijeljenim sustavima pozitivno utječe na maksimiziranje propusnosti sustava i minimiziranje latencije kod korisničkog iskustva.
 
 ## Sadržaj repozitorija
 
